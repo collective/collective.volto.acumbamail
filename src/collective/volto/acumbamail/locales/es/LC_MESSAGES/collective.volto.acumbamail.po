@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: collective.volto.acumbamail\n"
 "POT-Creation-Date: 2026-04-12 11:39+0000\n"
-"PO-Revision-Date: 2026-02-28 17:41+0100\n"
+"PO-Revision-Date: 2026-07-04 14:53+0100\n"
 "Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
 "Language-Team: ES <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -45,7 +45,7 @@ msgstr "Configuración de Acumbamail incompleta"
 
 #: collective/volto/acumbamail/profiles.zcml:13
 msgid "Acumbamail integration with Plone: Install"
-msgstr "Integración de Acumbamail con Plone: Instalar"
+msgstr "Volto: Integración de Acumbamail con Plone: Instalar"
 
 #: collective/volto/acumbamail/profiles.zcml:21
 msgid "Acumbamail integration with Plone: Uninstall"
