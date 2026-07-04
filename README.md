@@ -1,8 +1,8 @@
 # collective.volto.acumbamail
 
-[![collective.volto.acumbamail CI](https://github.com/macagua/collective.volto.acumbamail/actions/workflows/ci.yml/badge.svg)](https://github.com/macagua/collective.volto.acumbamail/actions/workflows/ci.yml)
+[![collective.volto.acumbamail CI](https://github.com/collective/collective.volto.acumbamail/actions/workflows/ci.yml/badge.svg)](https://github.com/collective/collective.volto.acumbamail/actions/workflows/ci.yml)
 
-[![Acumbamail](https://raw.githubusercontent.com/macagua/collective.volto.acumbamail/refs/heads/main/docs/docs/_static/logo.svg)](https://acumbamail.com/)
+[![Acumbamail](https://raw.githubusercontent.com/collective/collective.volto.acumbamail/refs/heads/main/docs/docs/_static/logo.svg)](https://acumbamail.com/)
 
 An integration for the [Acumbamail](https://acumbamail.com/) service with Plone
 
@@ -17,13 +17,13 @@ An integration for the [Acumbamail](https://acumbamail.com/) service with Plone
 
 **Add-on Configuration Access**
 
-<img width="290" alt="image" src="https://raw.githubusercontent.com/macagua/collective.volto.acumbamail/refs/heads/main/docs/images/addon-configuration-acumbamail-icon.png">
+<img width="290" alt="image" src="https://raw.githubusercontent.com/collective/collective.volto.acumbamail/refs/heads/main/docs/images/addon-configuration-acumbamail-icon.png">
 
 ---
 
 **Acumbamail Settings control panel**
 
-<img width="720" alt="image" src="https://raw.githubusercontent.com/macagua/collective.volto.acumbamail/refs/heads/main/docs/images/acumbamail-settings.png">
+<img width="720" alt="image" src="https://raw.githubusercontent.com/collective/collective.volto.acumbamail/refs/heads/main/docs/images/acumbamail-settings.png">
 
 ## @acumbamail-subscribe route
 
@@ -45,7 +45,7 @@ The Acumbamail endpoints that using:
 
 ## Volto integration
 
-To use this product in Volto, your Volto project needs to include a new add-on: https://github.com/macagua/volto-acumbamail
+To use this product in Volto, your Volto project needs to include a new add-on: https://github.com/collective/volto-acumbamail
 
 ## Translations
 
@@ -56,7 +56,7 @@ This product has been translated into
 
 ## Compatibility
 
-- Tested with Python 3.12 and Plone 6.1.4.
+- Tested with Python 3.12 and Plone 6.1.5.
 
 ## Installation
 
