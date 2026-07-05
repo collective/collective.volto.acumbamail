@@ -10,13 +10,8 @@ myst:
 # Acumbamail integration with Plone
 
 Welcome to the documentation for Acumbamail integration with Plone!
-An integration for the Acumbamail service with Plone
 
-This scaffold provides a ready-to-use environment for creating comprehensive documentation for {term}`Plone` projects, based on {term}`Plone Sphinx Theme`.
-
-Built with Markedly Structured Text ({term}`MyST`), this environment supports rich formatting, directives, and extensions tailored for technical documentation.
-
-It's structured following the [Diátaxis](https://diataxis.fr/) documentation framework.
+An integration for the Acumbamail service with Plone and Volto integration.
 
 ```{toctree}
 :caption: How to guides
@@ -24,6 +19,14 @@ It's structured following the [Diátaxis](https://diataxis.fr/) documentation fr
 :hidden: true
 
 how-to-guides/index
+```
+
+```{toctree}
+:caption: Concepts
+:maxdepth: 2
+:hidden: true
+
+concepts/index
 ```
 
 ```{toctree}
@@ -40,14 +43,6 @@ reference/index
 :hidden: true
 
 tutorials/index
-```
-
-```{toctree}
-:caption: Concepts
-:maxdepth: 2
-:hidden: true
-
-concepts/index
 ```
 
 ```{toctree}

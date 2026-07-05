@@ -2,15 +2,17 @@
 name = "Acumbamail_integration_with_Plone_Documentation"
 description = "An integration for the Acumbamail service with Plone"
 keywords = [
-    "Acumbamail integration with Plone",
+    "Acumbamail",
+    "integration",
     "documentation",
     "Plone",
     "Diátaxis",
 ]
 version="1.0.0"
 readme = "README.md"
-requires-python = ">=3.10,<3.13"
-license = { file = "LICENSE" }
+requires-python = ">=3.10,<3.14"
+license = "CC-BY-4.0"
+license-files = ["LICENSE.md"]
 maintainers = [
     { name = "Leonardo J. Caballero G.", email = "leonardocaballero@gmail.com" },
 ]
@@ -53,9 +55,12 @@ dev = [
 ]
 
 [project.urls]
-Repository = "https://github.com/collective/acumbamailintegrationwithplone"
+Repository = "https://github.com/collective/collective.volto.acumbamail"
 Documentation = "https://MY_READTHEDOCS_PROJECT_SLUG.readthedocs.io/"
 
 [build-system]
 requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+exclude = ["styles"]
