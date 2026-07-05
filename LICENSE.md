@@ -1,4 +1,4 @@
-collective.volto.acumbamail Copyright 2025, Leonardo J. Caballero G.
+collective.volto.acumbamail Copyright 2025, 2026, Leonardo J. Caballero G.
 
 This program is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License version 2
