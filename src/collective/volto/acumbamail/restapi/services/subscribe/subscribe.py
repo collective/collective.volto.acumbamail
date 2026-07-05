@@ -89,6 +89,7 @@ class AcumbamailSubscribe(Service):
             # Check if the request was successful (status code 200-299)
             response.raise_for_status()
             # Check if the response is JSON before trying to parse it
+            result = None
             if "application/json" in response.headers.get("Content-Type", ""):
                 # Parse the response from Acumbamail and determine if the subscription
                 # was successful.
