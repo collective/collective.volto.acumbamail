@@ -76,6 +76,7 @@ make create-site
 
 - [Issue tracker](https://github.com/collective/collective.volto.acumbamail/issues)
 - [Source code](https://github.com/collective/collective.volto.acumbamail/)
+- [Documentation](https://collectivevoltoacumbamail.readthedocs.io/)
 
 ### Prerequisites ✅
 
