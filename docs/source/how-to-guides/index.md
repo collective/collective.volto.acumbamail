@@ -48,11 +48,11 @@ Go to the `Site setup`, next to the `Add-ons` control panel, find the `collectiv
 
 To use this add-on, go to the `Site setup`, next to the ``Add-on Configuration`` icon, as shown below:
 
-<img width="290" alt="image" src="https://raw.githubusercontent.com/collective/collective.volto.acumbamail/refs/heads/main/docs/images/addon-configuration-acumbamail-icon.png">
+<img width="290" alt="image" src="../../images/addon-configuration-acumbamail-icon.png" alt="Add-on Configuration">
 
 This `Acumbamail Settings`, you can access the control panel, as shown below:
 
-<img width="720" alt="image" src="https://raw.githubusercontent.com/collective/collective.volto.acumbamail/refs/heads/main/docs/images/acumbamail-settings.png">
+<img width="720" alt="image" src="../../images/acumbamail-settings.png" alt="Acumbamail Settings">
 
 In this control panel, you can configure the following fields:
 
