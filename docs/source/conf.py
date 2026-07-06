@@ -201,7 +201,7 @@ html_theme_options = {
 
 # Announce that we have an opensearch plugin
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-html_use_opensearch
-html_use_opensearch = "https://MY_READTHEDOCS_PROJECT_SLUG.readthedocs.io"
+html_use_opensearch = "https://collectivevoltoacumbamail.readthedocs.io"
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
@@ -239,7 +239,7 @@ autodoc_class_signature = "separated"
 # -- Options for sphinx_sitemap to html -----------------------------
 
 # Used by sphinx_sitemap to generate a sitemap
-html_baseurl = "https://MY_READTHEDOCS_PROJECT_SLUG.readthedocs.io/"
+html_baseurl = "https://collectivevoltoacumbamail.readthedocs.io/"
 # https://sphinx-sitemap.readthedocs.io/en/latest/advanced-configuration.html#customizing-the-url-scheme
 sitemap_url_scheme = "{link}"
 sitemap_filename = "sitemap-custom.xml"
@@ -287,9 +287,9 @@ mermaid_version = "11.2.0"
 
 
 # -- OpenGraph configuration ----------------------------------
-ogp_site_url = "https://MY_READTHEDOCS_PROJECT_SLUG.readthedocs.io/"
+ogp_site_url = "https://collectivevoltoacumbamail.readthedocs.io/"
 ogp_description_length = 200
-ogp_image = "https://MY_READTHEDOCS_PROJECT_SLUG/_static/MY_LOGO.svg"
+ogp_image = "https://collectivevoltoacumbamail/_static/MY_LOGO.svg"
 ogp_site_name = "Acumbamail integration with Plone Documentation"
 ogp_type = "website"
 ogp_custom_meta_tags = [
