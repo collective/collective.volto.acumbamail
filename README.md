@@ -2,7 +2,7 @@
 
 [![collective.volto.acumbamail CI](https://github.com/collective/collective.volto.acumbamail/actions/workflows/ci.yml/badge.svg)](https://github.com/collective/collective.volto.acumbamail/actions/workflows/ci.yml)
 
-[![Acumbamail](https://raw.githubusercontent.com/collective/collective.volto.acumbamail/refs/heads/main/docs/docs/_static/logo.svg)](https://acumbamail.com/)
+[![Acumbamail](https://raw.githubusercontent.com/collective/collective.volto.acumbamail/refs/heads/main/docs/source/_static/logo.svg)](https://acumbamail.com/)
 
 An integration for the [Acumbamail](https://acumbamail.com/) service with Plone
 
