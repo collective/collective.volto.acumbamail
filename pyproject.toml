@@ -77,6 +77,21 @@ strict-naming = true
 [tool.hatch.build.targets.sdist]
 exclude = [
   "/.github",
+  "/scripts",
+  "/news",
+  "/.agents",
+  "/.claude",
+  "/.mxdev_cache",
+  "/tox.ini",
+  "/Makefile",
+  "/bobtemplate.cfg",
+  "/mx.ini",
+  "/instance.yaml",
+  "/cURL.md",
+  "/.editorconfig",
+  "/.flake8",
+  "/.gitignore",
+  "/.mrbob.ini",
 ]
 
 [tool.hatch.build.targets.wheel]
@@ -186,3 +201,7 @@ omit = [
 
 [tool.zest-releaser]
 python-file-with-version = "src/collective/volto/acumbamail/__init__.py"
+
+[tool.setuptools]
+packages = { find = {} }
+include-package-data = true

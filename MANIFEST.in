@@ -1,0 +1,31 @@
+# Include top-level files
+include README.md
+include LICENSE.md
+include LICENSE.GPL
+
+# Exclude top-level files
+exclude tox.ini Makefile bobtemplate.cfg mx.ini
+
+# Add all files under directories matching
+graft src/collective/volto/acumbamail/profiles
+graft docs
+
+recursive-include src/collective/volto/acumbamail *.zcml
+recursive-include src/collective/volto/acumbamail *.xml
+recursive-include src/collective/volto/acumbamail *.txt
+recursive-include src/collective/volto/acumbamail *.pot
+recursive-include src/collective/volto/acumbamail *.po
+recursive-include src/collective/volto/acumbamail *.mo
+
+# Include test files in sdist
+recursive-include tests *.py
+
+# Remove all files under directories matching
+prune scripts
+prune news
+prune .agents
+prune .claude
+prune .mxdev_cache
+
+# Exclude temporal files and compiled Python files
+global-exclude *~ *.py[cod]
