@@ -1,1 +1,0 @@
-Make a release version for this add-on [macagua]

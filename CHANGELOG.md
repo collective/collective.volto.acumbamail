@@ -8,3 +8,10 @@
 -->
 
 <!-- towncrier release notes start -->
+
+## 1.0.0a0 (2026-07-06)
+
+
+### New features:
+
+- Make a release version for this add-on [macagua] [#1](https://github.com/collective/collective.volto.acumbamail/issues/1)
