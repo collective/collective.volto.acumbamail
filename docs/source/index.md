@@ -9,9 +9,11 @@ myst:
 
 # Acumbamail integration with Plone
 
-Welcome to the documentation for Acumbamail integration with Plone!
+Welcome to the documentation for `Acumbamail` integration with Plone!
 
-An integration for the Acumbamail service with Plone and Volto integration.
+<img width="400" alt="image" src="./_static/logo.svg" alt="Acumbamail Logo">
+
+An integration for the `Acumbamail` service with Plone and Volto integration.
 
 ```{toctree}
 :caption: How to guides

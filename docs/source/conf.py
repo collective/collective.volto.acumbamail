@@ -289,7 +289,7 @@ mermaid_version = "11.2.0"
 # -- OpenGraph configuration ----------------------------------
 ogp_site_url = "https://collectivevoltoacumbamail.readthedocs.io/"
 ogp_description_length = 200
-ogp_image = "https://collectivevoltoacumbamail/_static/MY_LOGO.svg"
+ogp_image = "https://collectivevoltoacumbamail.readthedocs.io/en/latest/_static/logo.svg"
 ogp_site_name = "Acumbamail integration with Plone Documentation"
 ogp_type = "website"
 ogp_custom_meta_tags = [

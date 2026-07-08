@@ -1,6 +1,12 @@
 # collective.volto.acumbamail
 
-[![collective.volto.acumbamail CI](https://github.com/collective/collective.volto.acumbamail/actions/workflows/ci.yml/badge.svg)](https://github.com/collective/collective.volto.acumbamail/actions/workflows/ci.yml)
+[![Latest Version](https://img.shields.io/pypi/v/collective.volto.acumbamail.svg)](https://pypi.org/project/collective.volto.acumbamail/)
+
+[![Supported - Python Versions](https://img.shields.io/pypi/pyversions/collective.volto.acumbamail.svg?style=plastic)](https://pypi.org/project/collective.volto.acumbamail/)
+
+[![Number of PyPI downloads](https://img.shields.io/pypi/dm/collective.volto.acumbamail.svg)](https://pypi.org/project/collective.volto.acumbamail/)
+
+[![License](https://img.shields.io/pypi/l/collective.volto.acumbamail.svg)](https://pypi.org/project/collective.volto.acumbamail/)
 
 [![Acumbamail](https://raw.githubusercontent.com/collective/collective.volto.acumbamail/refs/heads/main/docs/source/_static/logo.svg)](https://acumbamail.com/)
 
@@ -125,16 +131,33 @@ You can add a behavior with the following command.
 make add behavior
 ```
 
-## See also:
+#### See also:
 
 You can check the list of available subtemplates in the [`bobtemplates.plone` `README.md` file](https://github.com/plone/bobtemplates.plone/?tab=readme-ov-file#provided-subtemplates).
 See also the documentation of [Mockup and Patternslib](https://6.docs.plone.org/classic-ui/mockup.html) for how to build the UI toolkit for Classic UI.
 
+## Credits
+
+Developed with the support of:
+
+- [Instituto Municipal de Deportes - IMD, Seville City Council, Spain](https://imd.sevilla.org/).
+
+  <img width="200" alt="image" src="https://raw.githubusercontent.com/collective/collective.volto.acumbamail/refs/heads/main/docs/images/imd-ayto-logo.svg" alt="IMD Logo">
+
+### Acknowledgements 🙏
+
+Generated using [Cookieplone (0.9.10)](https://github.com/plone/cookieplone) and [cookieplone-templates (eb40854)](https://github.com/plone/cookieplone-templates/commit/eb4085428af6261227bcb086ece110bbe5475d89) on 2025-11-06 19:48:38.313942. A special thanks to all contributors and supporters!
+
+## Authors
+
+This product was developed by Leonardo J. Caballero G. [leonardocaballero@gmail.com].
+
+<img width="100" alt="image" src="https://avatars.githubusercontent.com/u/185395?v=4&size=100" alt="Leonardo J. Caballero G.">
+
+### Contributors
+
+You can see a list of contributors in the [CONTRIBUTORS.md](https://raw.githubusercontent.com/collective/collective.volto.turnstile/refs/heads/main/CONTRIBUTORS.md) file.
 
 ## License
 
 The project is licensed under GPLv2.
-
-## Credits and acknowledgements 🙏
-
-Generated using [Cookieplone (0.9.10)](https://github.com/plone/cookieplone) and [cookieplone-templates (eb40854)](https://github.com/plone/cookieplone-templates/commit/eb4085428af6261227bcb086ece110bbe5475d89) on 2025-11-06 19:48:38.313942. A special thanks to all contributors and supporters!
