@@ -1,16 +1,10 @@
 # collective.volto.acumbamail
 
-[![Latest Version](https://img.shields.io/pypi/v/collective.volto.acumbamail.svg)](https://pypi.org/project/collective.volto.acumbamail/)
-
-[![Supported - Python Versions](https://img.shields.io/pypi/pyversions/collective.volto.acumbamail.svg?style=plastic)](https://pypi.org/project/collective.volto.acumbamail/)
-
-[![Number of PyPI downloads](https://img.shields.io/pypi/dm/collective.volto.acumbamail.svg)](https://pypi.org/project/collective.volto.acumbamail/)
-
-[![License](https://img.shields.io/pypi/l/collective.volto.acumbamail.svg)](https://pypi.org/project/collective.volto.acumbamail/)
+[![Latest Version](https://img.shields.io/pypi/v/collective.volto.acumbamail.svg)](https://pypi.org/project/collective.volto.acumbamail/) [![Supported - Python Versions](https://img.shields.io/pypi/pyversions/collective.volto.acumbamail.svg?style=plastic)](https://pypi.org/project/collective.volto.acumbamail/) [![Number of PyPI downloads](https://img.shields.io/pypi/dm/collective.volto.acumbamail.svg)](https://pypi.org/project/collective.volto.acumbamail/) [![License](https://img.shields.io/pypi/l/collective.volto.acumbamail.svg)](https://pypi.org/project/collective.volto.acumbamail/)
 
 [![Acumbamail](https://raw.githubusercontent.com/collective/collective.volto.acumbamail/refs/heads/main/docs/source/_static/logo.svg)](https://acumbamail.com/)
 
-An integration for the [Acumbamail](https://acumbamail.com/) service with Plone
+An integration for the [Acumbamail](https://acumbamail.com/) service with Plone.
 
 ## Features
 
