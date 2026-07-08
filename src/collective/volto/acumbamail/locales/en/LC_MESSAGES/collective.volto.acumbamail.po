@@ -15,11 +15,11 @@ msgstr ""
 "Domain: collective.volto.acumbamail\n"
 
 #: collective/volto/acumbamail/interfaces.py:32
-msgid "Acumbamail API Key"
+msgid "API Key"
 msgstr ""
 
 #: collective/volto/acumbamail/interfaces.py:26
-msgid "Acumbamail API URL"
+msgid "API URL"
 msgstr ""
 
 #: collective/volto/acumbamail/controlpanels/controlpanel.py:8
@@ -27,7 +27,7 @@ msgid "Acumbamail Configuration"
 msgstr ""
 
 #: collective/volto/acumbamail/interfaces.py:38
-msgid "Acumbamail List ID"
+msgid "List ID"
 msgstr ""
 
 #: collective/volto/acumbamail/profiles/default/controlpanel.xml
@@ -83,5 +83,5 @@ msgid "Uninstall Acumbamail integration with Plone setup."
 msgstr ""
 
 #: collective/volto/acumbamail/interfaces.py:33
-msgid "Your personal Acumbamail token (https://acumbamail.com/api/)"
+msgid "Your Acumbamail personal token (https://acumbamail.com/api/)"
 msgstr ""

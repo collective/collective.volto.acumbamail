@@ -56,9 +56,11 @@ This `Acumbamail Settings`, you can access the control panel, as shown below:
 
 In this control panel, you can configure the following fields:
 
-- Acumbamail API URL.
-- Acumbamail API Key.
-- Acumbamail List ID.
+- ``API URL``.
+
+- ``API Key``.
+
+- ``List ID``.
 
 ## @acumbamail-subscribe route
 

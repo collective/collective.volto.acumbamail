@@ -23,19 +23,19 @@ class IAcumbamailSettings(model.Schema):
     )
 
     api_url = schema.TextLine(
-        title=_("Acumbamail API URL"),
+        title=_("API URL"),
         description=_("The URL of the Acumbamail API endpoint."),
         required=True,
     )
 
     api_key = schema.TextLine(
-        title=_("Acumbamail API Key"),
-        description=_("Your personal Acumbamail token (https://acumbamail.com/api/)"),
+        title=_("API Key"),
+        description=_("Your Acumbamail personal token (https://acumbamail.com/api/)"),
         required=True,
     )
 
     list_id = schema.TextLine(
-        title=_("Acumbamail List ID"),
+        title=_("List ID"),
         description=_(
             "Numeric identifier of the list where subscribers will be added."
         ),

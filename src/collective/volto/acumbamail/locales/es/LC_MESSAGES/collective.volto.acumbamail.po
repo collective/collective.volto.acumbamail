@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: collective.volto.acumbamail\n"
 "POT-Creation-Date: 2026-04-12 11:39+0000\n"
-"PO-Revision-Date: 2026-07-04 14:53+0100\n"
+"PO-Revision-Date: 2026-07-07 13:11+0100\n"
 "Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
 "Language-Team: ES <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -20,19 +20,19 @@ msgstr ""
 "X-Generator: Poedit 3.8\n"
 
 #: collective/volto/acumbamail/interfaces.py:32
-msgid "Acumbamail API Key"
+msgid "API Key"
 msgstr "Clave API de Acumbamail"
 
 #: collective/volto/acumbamail/interfaces.py:26
-msgid "Acumbamail API URL"
-msgstr "URL de la API de Acumbamail"
+msgid "API URL"
+msgstr "Direccción URL de la API de Acumbamail"
 
 #: collective/volto/acumbamail/controlpanels/controlpanel.py:8
 msgid "Acumbamail Configuration"
 msgstr "Configuración de Acumbamail"
 
 #: collective/volto/acumbamail/interfaces.py:38
-msgid "Acumbamail List ID"
+msgid "List ID"
 msgstr "ID de la lista de correo Acumbamail"
 
 #: collective/volto/acumbamail/profiles/default/controlpanel.xml
@@ -49,7 +49,7 @@ msgstr "Volto: Integración de Acumbamail con Plone: Instalar"
 
 #: collective/volto/acumbamail/profiles.zcml:21
 msgid "Acumbamail integration with Plone: Uninstall"
-msgstr "Barra de herramientas de depuración de Plone - Desinstalación"
+msgstr "Volto: Integración de Acumbamail con Plone: Desinstalar"
 
 #: collective/volto/acumbamail/restapi/services/subscribe/subscribe.py:103
 msgid "Acumbamail: {result}"
@@ -88,5 +88,5 @@ msgid "Uninstall Acumbamail integration with Plone setup."
 msgstr "Desinstalar la integración de Acumbamail con la configuración de Plone."
 
 #: collective/volto/acumbamail/interfaces.py:33
-msgid "Your personal Acumbamail token (https://acumbamail.com/api/)"
+msgid "Your Acumbamail personal token (https://acumbamail.com/api/)"
 msgstr "Tu token personal de Acumbamail (https://acumbamail.com/api/)"
