@@ -1,0 +1,1 @@
+Renamed from the 'ISettings' to the 'IAcumbamailSettings' interface #2 [macagua]
