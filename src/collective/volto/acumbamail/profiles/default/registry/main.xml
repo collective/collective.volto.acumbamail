@@ -4,6 +4,6 @@
 >
 
   <!-- -*- extra stuff goes here -*- -->
-  <records interface="collective.volto.acumbamail.interfaces.ISettings" />
+  <records interface="collective.volto.acumbamail.interfaces.IAcumbamailSettings" />
 
 </registry>

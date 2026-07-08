@@ -2,7 +2,7 @@
 
 from collective.volto.acumbamail import _
 from collective.volto.acumbamail import logger
-from collective.volto.acumbamail.interfaces import ISettings
+from collective.volto.acumbamail.interfaces import IAcumbamailSettings
 from plone import api
 from plone.restapi.services import Service
 from zExceptions import BadRequest
@@ -51,15 +51,15 @@ class AcumbamailSubscribe(Service):
         list_id = None
         try:
             api_url = api.portal.get_registry_record(
-                "api_url", interface=ISettings, default="YOUR_API_URL"
+                "api_url", interface=IAcumbamailSettings, default="YOUR_API_URL"
             )
             if api_url.endswith("/"):
                 api_url = api_url[:-1]
             api_key = api.portal.get_registry_record(
-                "api_key", interface=ISettings, default="YOUR_API_KEY"
+                "api_key", interface=IAcumbamailSettings, default="YOUR_API_KEY"
             )
             list_id = api.portal.get_registry_record(
-                "list_id", interface=ISettings, default="YOUR_LIST_ID"
+                "list_id", interface=IAcumbamailSettings, default="YOUR_LIST_ID"
             )
         except Exception:
             logger.warning("No configuration records found in Plone registry")

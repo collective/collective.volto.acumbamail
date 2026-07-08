@@ -13,7 +13,7 @@ class ICollectiveVoltoAcumbamailLayer(IDefaultBrowserLayer):
 
 
 @provider(IFormFieldProvider)
-class ISettings(model.Schema):
+class IAcumbamailSettings(model.Schema):
     """Acumbamail connector configuration"""
 
     model.fieldset(

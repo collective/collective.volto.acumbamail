@@ -1,6 +1,6 @@
 """Acumbamail REST API controlpanel adapter."""
 
-from collective.volto.acumbamail.interfaces import ISettings
+from collective.volto.acumbamail.interfaces import IAcumbamailSettings
 from plone.restapi.controlpanels import RegistryConfigletPanel
 
 # from plone.restapi.interfaces import IControlpanelLayer
@@ -14,7 +14,7 @@ from zope.publisher.interfaces.browser import IBrowserRequest
 class AcumbamailSettingsControlpanel(RegistryConfigletPanel):
     """REST API controlpanel adapter for Acumbamail settings."""
 
-    schema = ISettings
+    schema = IAcumbamailSettings
     schema_prefix = None
     configlet_id = "AcumbamailSettings"
     configlet_category_id = "Products"

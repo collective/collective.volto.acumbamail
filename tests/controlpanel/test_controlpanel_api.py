@@ -1,4 +1,4 @@
-from collective.volto.acumbamail.interfaces import ISettings
+from collective.volto.acumbamail.interfaces import IAcumbamailSettings
 from collective.volto.acumbamail.testing import RESTAPI_TESTING
 from plone import api
 from plone.app.testing import setRoles
@@ -38,7 +38,7 @@ class SettingsControlpanelTest(unittest.TestCase):
         """Helper method to get the current registry record value."""
         record = api.portal.get_registry_record(
             "settings",
-            interface=ISettings,
+            interface=IAcumbamailSettings,
             default="",
         )
         if not record:
