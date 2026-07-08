@@ -1,1 +1,0 @@
-Added the new predefined role called 'Acumbamail' to access to the 'Acumbamail settings' control panel. #3 [macagua]
