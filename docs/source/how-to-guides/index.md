@@ -71,3 +71,25 @@ To avoid enabling registry access to everyone, this package exposes a dedicated 
 ```shell
 curl -i -X POST http://localhost:8080/Plone/@acumbamail-subscribe -H "Accept: application/json" -H "Accept-Language: es" --data '{"email": "leonardocaballero@gmail.com"}' --user admin:admin
 ```
+
+## Security access
+
+The  `collective.volto.acumbamail` add-on includes the following roles and permissions:
+
+### Roles
+
+- ``Acumbamail`` role (**NEW!!!**).
+
+### Permissions
+
+- ``volto.acumbamail: Manage Acumbamail Settings`` permission (**NEW!!!**) grants access to the following roles:
+
+  - ``Acumbamail`` role.
+
+- The ``Plone Site Setup: Overview`` permission grants access to the `Site Setup: Overview ` view to the following roles:
+
+  - The ``Manager`` role.
+
+  - The ``Site Administrator`` role.
+
+  - The ``Acumbamail`` role.

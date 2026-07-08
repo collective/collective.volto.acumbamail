@@ -1,12 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rolemap>
+  <roles>
+    <!-- Acumbamail role -->
+    <role name="Acumbamail" />
+  </roles>
+
   <permissions>
     <!-- -*- extra stuff goes here -*- -->
     <permission acquire="True"
                 name="volto.acumbamail: Manage Acumbamail Settings"
     >
+      <role name="Acumbamail" />
+    </permission>
+
+    <!-- this is needed to access 'Acumbamail settings' controlpanel -->
+    <permission acquire="True"
+                name="Plone Site Setup: Overview"
+    >
       <role name="Manager" />
       <role name="Site Administrator" />
+      <role name="Acumbamail" />
     </permission>
 
   </permissions>
