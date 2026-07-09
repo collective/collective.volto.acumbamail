@@ -1,1 +1,0 @@
-Fixed the KeyError: 'Interface collective.volto.acumbamail.interfaces.IAcumbamailSettings defines a field api_url, for which there is no record.' message [macagua]

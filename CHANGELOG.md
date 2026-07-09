@@ -9,6 +9,13 @@
 
 <!-- towncrier release notes start -->
 
+## 1.0.0a2 (2026-07-09)
+
+
+### Bug fixes:
+
+- Fixed the KeyError: 'Interface collective.volto.acumbamail.interfaces.IAcumbamailSettings defines a field api_url, for which there is no record.' message [macagua] [#5](https://github.com/collective/collective.volto.acumbamail/issues/5)
+
 ## 1.0.0a1 (2026-07-08)
 
 
