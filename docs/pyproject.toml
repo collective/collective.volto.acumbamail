@@ -1,26 +1,32 @@
 [project]
-name = "Acumbamail_integration_with_Plone_Documentation"
+name = "collective_volto_acumbamail_documentation"
 description = "An integration for the Acumbamail service with Plone"
-keywords = [
-    "Acumbamail",
-    "integration",
-    "documentation",
-    "Plone",
-    "Diátaxis",
-]
-version="1.0.0"
 readme = "README.md"
-requires-python = ">=3.10,<3.14"
 license = "CC-BY-4.0"
 license-files = ["LICENSE.md"]
-maintainers = [
-    { name = "Leonardo J. Caballero G.", email = "leonardocaballero@gmail.com" },
-]
 authors = [
     { name = "Leonardo J. Caballero G.", email = "leonardocaballero@gmail.com" },
 ]
+maintainers = [
+    { name = "Leonardo J. Caballero G.", email = "leonardocaballero@gmail.com" },
+]
+keywords = [
+    "CMS",
+    "Plone",
+    "Python",
+    "Acumbamail",
+    "integration",
+    "documentation",
+]
+version="1.0.0"
+requires-python = ">=3.10,<3.14"
 classifiers = [
     "Development Status :: 1 - Planning",
+    "Environment :: Web Environment",
+    "Framework :: Plone",
+    "Framework :: Plone :: 6.0",
+    "Framework :: Plone :: 6.1",
+    "Framework :: Plone :: Addon",
     "Operating System :: OS Independent",
     "Programming Language :: Python",
     "Programming Language :: Python :: 3",
@@ -28,6 +34,9 @@ classifiers = [
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.13",
+    "Topic :: Communications :: Email",
+    "Topic :: Communications :: Email :: Mailing List Servers",
+    "Topic :: Internet :: WWW/HTTP",
 ]
 
 [dependency-groups]
@@ -56,7 +65,11 @@ dev = [
 
 [project.urls]
 Repository = "https://github.com/collective/collective.volto.acumbamail"
+Source = "https://github.com/collective/collective.volto.acumbamail"
+Tracker = "https://github.com/collective/collective.volto.acumbamail/issues"
 Documentation = "https://collectivevoltoacumbamail.readthedocs.io/"
+Changelog = "https://github.com/collective/collective.volto.acumbamail/blob/main/CHANGELOG.md"
+"Contributors" = "https://github.com/collective/collective.volto.acumbamail/blob/main/CONTRIBUTORS.md"
 
 [build-system]
 requires = ["setuptools"]
