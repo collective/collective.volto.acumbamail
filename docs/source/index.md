@@ -13,7 +13,7 @@ Welcome to the documentation for `Acumbamail` integration with Plone!
 
 <img width="400" alt="image" src="./_static/logo.svg" alt="Acumbamail Logo">
 
-An integration for the `Acumbamail` service with Plone and Volto integration.
+An integration for the **Acumbamail** service with Plone and Volto integration.
 
 ```{toctree}
 :caption: How to guides
@@ -37,14 +37,6 @@ concepts/index
 :hidden: true
 
 reference/index
-```
-
-```{toctree}
-:caption: Tutorials
-:maxdepth: 2
-:hidden: true
-
-tutorials/index
 ```
 
 ```{toctree}
