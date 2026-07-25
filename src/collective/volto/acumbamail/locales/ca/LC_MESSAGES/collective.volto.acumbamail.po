@@ -1,0 +1,87 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: collective.volto.acumbamail\n"
+"POT-Creation-Date: 2026-07-25 16:02+0000\n"
+"PO-Revision-Date: 2026-07-25 17:31+0200\n"
+"Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
+"Language-Team: Català <https://hosted.weblate.org/projects/plone/plone/ca/>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Code: ca\n"
+"Language-Name: Catalan\n"
+"Preferred-Encodings: utf-8\n"
+"Domain: collective.volto.acumbamail\n"
+"Language: ca\n"
+"X-Is-Fallback-For: ca-ad ca-es ca-fr ca-it\n"
+"X-Generator: Poedit 3.9\n"
+
+#: collective/volto/acumbamail/interfaces.py:32
+msgid "API Key"
+msgstr "Clau de l'API"
+
+#: collective/volto/acumbamail/interfaces.py:26
+msgid "API URL"
+msgstr "URL de l'API"
+
+#: collective/volto/acumbamail/controlpanels/controlpanel.py:8
+#: collective/volto/acumbamail/profiles/default/controlpanel.xml
+msgid "Acumbamail Settings"
+msgstr "Configuració d'Acumbamail"
+
+#: collective/volto/acumbamail/restapi/services/subscribe/subscribe.py:73
+msgid "Acumbamail configuration incomplete"
+msgstr "Configuració d'Acumbamail incompleta"
+
+#: collective/volto/acumbamail/profiles.zcml:13
+msgid "Acumbamail integration with Plone: Install"
+msgstr "Integració d'Acumbamail amb Plone: Instal·lació"
+
+#: collective/volto/acumbamail/profiles.zcml:21
+msgid "Acumbamail integration with Plone: Uninstall"
+msgstr "Integració d'Acumbamail amb Plone: Desinstal·lar"
+
+#: collective/volto/acumbamail/restapi/services/subscribe/subscribe.py:104
+msgid "Acumbamail: {result}"
+msgstr "Acumbamail: {result}"
+
+#: collective/volto/acumbamail/controlpanels/controlpanel.py:9
+msgid "Define the credentials and connection parameters for Acumbamail service."
+msgstr "Definiu les credencials i els paràmetres de connexió per al servei d'Acumbamail."
+
+#: collective/volto/acumbamail/interfaces.py:21
+msgid "General settings"
+msgstr "Configuració general"
+
+#: collective/volto/acumbamail/interfaces.py:38
+msgid "List ID"
+msgstr "ID de llista"
+
+#: collective/volto/acumbamail/interfaces.py:39
+msgid "Numeric identifier of the list where subscribers will be added."
+msgstr "Identificador numèric de la llista on s'afegiran els subscriptors."
+
+#: collective/volto/acumbamail/profiles.zcml:13
+msgid "Package to configure a new Acumbamail integration with Plone site"
+msgstr "Paquet per configurar una nova integració d'Acumbamail amb un lloc Plone"
+
+#: collective/volto/acumbamail/restapi/services/subscribe/subscribe.py:99
+msgid "Subscription successful"
+msgstr "Subscripció reeixida"
+
+#: collective/volto/acumbamail/restapi/services/subscribe/subscribe.py:43
+msgid "The 'email' field is required."
+msgstr "El camp 'email' és obligatori."
+
+#: collective/volto/acumbamail/interfaces.py:27
+msgid "The URL of the Acumbamail API endpoint."
+msgstr "L'URL del punt final de l'API d'Acumbamail."
+
+#: collective/volto/acumbamail/profiles.zcml:21
+msgid "Uninstall Acumbamail integration with Plone setup."
+msgstr "Desinstal·lar la integració d'Acumbamail amb la configuració de Plone."
+
+#: collective/volto/acumbamail/interfaces.py:33
+msgid "Your personal token generated at the Acumbamail Dashboard website."
+msgstr "El vostre token personal generat al lloc web del panell de control d'Acumbamail."

@@ -33,6 +33,8 @@ To use this product in Volto, your Volto project needs to include a new add-on: 
 
 This product has been translated into
 
+- Catalan
+
 - English
 
 - Spanish
