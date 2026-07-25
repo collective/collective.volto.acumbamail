@@ -15,6 +15,7 @@ for the front end.
 
 ---
 
+(acumbamail-settings-route)=
 ## @acumbamail-settings route
 
 Anonymous users can't access registry resources by default with ``plone.restapi`` (there is a special permission).
@@ -113,6 +114,7 @@ That means you were updated the values in the ``Acumbamail`` settings control pa
 
 ---
 
+(acumbamail-subscribe-route)=
 ## @acumbamail-subscribe route
 
 Anonymous users can't access registry resources by default with ``plone.restapi`` (there is a special permission).

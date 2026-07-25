@@ -18,3 +18,7 @@ This part of the documentation contains reference material, including APIs, conf
 -   [Official API Acumbamail Documentation](https://acumbamail.com/apidoc/).
 
 -   The [addSubscriber](https://acumbamail.com/apidoc/function/addSubscriber/), is the Acumbamail endpoints that using.
+
+## Volto
+
+-   [volto-acumbamail](https://github.com/collective/volto-acumbamail) add-on.

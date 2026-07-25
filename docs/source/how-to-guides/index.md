@@ -67,11 +67,11 @@ In this control panel, you can configure the following fields:
 
 - ``API URL``, The URL of the Acumbamail API endpoint.
 
-- ``API Key``, Your Acumbamail personal token generated at the https://acumbamail.com/api/ website.
+- ``API Key``, Your personal token generated at the Acumbamail Dashboard website.
 
 - ``List ID``, Numeric identifier of the list where subscribers will be added.
 
 ## Use it
 
-To use the `Acumbamail` integration you need add the [volto-acumbamail](https://github.com/collective/volto-acumbamail) add-on, in your Volto project and
+To use the `Acumbamail` integration you need add the [volto-acumbamail](https://volto-acumbamail.readthedocs.io/) add-on, in your Volto project and
 use the amazain features incluided.

@@ -7,9 +7,9 @@ myst:
     "keywords": "Acumbamail, service, Plone, integration, documentation, concepts"
 ---
 
-# Concepts
+# Functional concepts
 
-Acumbamail Service Concepts with Plone/Volto
+Functional concepts of integration with Acumbamail service in Plone and Volto.
 
 ## Overview
 
