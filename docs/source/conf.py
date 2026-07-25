@@ -24,7 +24,7 @@ author = "Leonardo J. Caballero G."
 trademark_name = "collective"
 now = datetime.now()
 year = str(now.year)
-copyright = year  # noqa: A001
+copyright = f"2025 - {year}"  # noqa: A001
 
 
 # The version info for the project you're documenting, acts as replacement for
@@ -325,7 +325,7 @@ tippy_props = {
 # -- Options for HTML help output -------------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = "Acumbamail integration with PloneDocumentation"
+htmlhelp_basename = "Acumbamail_integration_with_Plone_Documentation"
 
 
 # -- Options for LaTeX output -------------------------------------------------
@@ -335,9 +335,9 @@ htmlhelp_basename = "Acumbamail integration with PloneDocumentation"
 latex_documents = [
     (
         "index",
-        "Acumbamail integration with PloneDocumentation.tex",
+        "Acumbamail_integration_with_Plone_Documentation.tex",
         "Acumbamail integration with Plone Documentation",
-        "collective community",
+        author,
         "manual",
     ),
 ]

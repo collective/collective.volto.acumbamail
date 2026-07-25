@@ -4,7 +4,7 @@ myst:
     "description": "Acumbamail integration with Plone how-to guides"
     "property=og:description": "Acumbamail integration with Plone how-to guides"
     "property=og:title": "Acumbamail integration with Plone how-to guides"
-    "keywords": "Plone, Acumbamail integration with Plone, how-to, guides"
+    "keywords": "Acumbamail, service, Plone, integration, documentation, how-to, guides"
 ---
 
 # How-to guides
@@ -14,18 +14,21 @@ This part of the documentation contains how-to guides, including installation an
 ## Features
 
 - Control panel in Plone registry to manage ``Acumbamail`` settings.
+
 - RestApi endpoint that exposes these settings for Volto.
+
 - Add a [new subscriber](https://acumbamail.com/apidoc/function/addSubscriber/) to the Acumbamail list.
 
 ## Volto integration
 
-To use this product in Volto, your Volto project needs to include a new add-on: https://github.com/collective/volto-acumbamail
+To use this product in Volto, you needs to include the following add-on in your project: https://github.com/collective/volto-acumbamail
 
 ## Translations
 
 This product has been translated into
 
 - English
+
 - Spanish
 
 ## Compatibility
@@ -48,48 +51,21 @@ Go to the `Site setup`, next to the `Add-ons` control panel, find the `collectiv
 
 To use this add-on, go to the `Site setup`, next to the ``Add-on Configuration`` icon, as shown below:
 
-<img width="290" alt="Add-on Configuration" src="../../images/addon-configuration-acumbamail-icon.png">
+<img width="290" alt="Add-on Configuration" src="../images/addon-configuration-acumbamail-icon.png">
 
 This `Acumbamail Settings`, you can access the control panel, as shown below:
 
-<img width="720" alt="Acumbamail Settings" src="../../images/acumbamail-settings.png">
+<img width="720" alt="Acumbamail Settings" src="../images/acumbamail-settings.png">
 
 In this control panel, you can configure the following fields:
 
-- ``API URL``.
+- ``API URL``, The URL of the Acumbamail API endpoint.
 
-- ``API Key``.
+- ``API Key``, Your Acumbamail personal token generated at the https://acumbamail.com/api/ website.
 
-- ``List ID``.
+- ``List ID``, Numeric identifier of the list where subscribers will be added.
 
-## @acumbamail-subscribe route
+## Use it
 
-Anonymous users can't access registry resources by default with ``plone.restapi`` (there is a special permission).
-
-To avoid enabling registry access to everyone, this package exposes a dedicated RestApi route with ``Acumbamail`` settings: *@acumbamail-settings*:
-
-```shell
-curl -i -X POST http://localhost:8080/Plone/@acumbamail-subscribe -H "Accept: application/json" -H "Accept-Language: es" --data '{"email": "leonardocaballero@gmail.com"}' --user admin:admin
-```
-
-## Security access
-
-The  `collective.volto.acumbamail` add-on includes the following roles and permissions:
-
-### Roles
-
-- ``Acumbamail`` role (**NEW!!!**).
-
-### Permissions
-
-- ``volto.acumbamail: Manage Acumbamail Settings`` permission (**NEW!!!**) grants access to the following roles:
-
-  - ``Acumbamail`` role.
-
-- The ``Plone Site Setup: Overview`` permission grants access to the `Site Setup: Overview ` view to the following roles:
-
-  - The ``Manager`` role.
-
-  - The ``Site Administrator`` role.
-
-  - The ``Acumbamail`` role.
+To use the `Acumbamail` integration you need add the [volto-acumbamail](https://github.com/collective/volto-acumbamail) add-on, in your Volto project and
+use the amazain features incluided.

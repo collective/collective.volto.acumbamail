@@ -4,7 +4,7 @@ myst:
     "description": "Terms and definitions used throughout the Acumbamail integration with Plone documentation."
     "property=og:description": "Terms and definitions used throughout the Acumbamail integration with Plone documentation."
     "property=og:title": "Glossary"
-    "keywords": "Plone, Acumbamail, documentation, glossary, term, definition"
+    "keywords": "Acumbamail, service, Plone, integration, documentation, glossary, term, definition"
 ---
 
 This glossary provides terms and definitions relevant to **Acumbamail integration with Plone**.
@@ -145,4 +145,3 @@ Sphinx
     It was originally created for Python documentation, and it has excellent facilities for the documentation of software projects in a range of languages.
     It can generate multiple output formats, including HTML and PDF, from a single source.
 
-```

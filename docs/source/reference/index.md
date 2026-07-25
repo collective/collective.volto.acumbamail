@@ -1,13 +1,13 @@
 ---
 myst:
   html_meta:
-    "description": "Acumbamail integration with Plone Reference"
+    "description": "Acumbamail Plone Reference"
     "property=og:description": "Acumbamail integration with Plone Reference"
     "property=og:title": "Acumbamail integration with Plone Reference"
-    "keywords": "Plone, _Acumbamail integration with Plone,_ reference"
+    "keywords": "Acumbamail, service, Plone, integration, documentation, reference"
 ---
 
-# Reference
+# General resources
 
 This part of the documentation contains reference material, including APIs, configuration values, and environment variables.
 

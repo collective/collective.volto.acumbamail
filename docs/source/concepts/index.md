@@ -1,10 +1,10 @@
 ---
 myst:
   html_meta:
-    "description": "Acumbamail integration with Plone concepts"
+    "description": "Acumbamail Plone concepts"
     "property=og:description": "Acumbamail integration with Plone concepts"
     "property=og:title": "Acumbamail integration with Plone concepts"
-    "keywords": "Plone, Acumbamail integration with Plone, concepts"
+    "keywords": "Acumbamail, service, Plone, integration, documentation, concepts"
 ---
 
 # Concepts
