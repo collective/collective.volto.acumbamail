@@ -33,6 +33,8 @@ This product has been translated into
 
 - English
 
+- Galician
+
 - Spanish
 
 ## Compatibility
