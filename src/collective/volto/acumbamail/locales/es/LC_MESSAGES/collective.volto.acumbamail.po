@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: collective.volto.acumbamail\n"
-"POT-Creation-Date: 2026-04-12 11:39+0000\n"
+"POT-Creation-Date: 2026-07-25 14:13+0000\n"
 "PO-Revision-Date: 2026-07-22 24:04+0100\n"
 "Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
 "Language-Team: ES <LL@li.org>\n"
@@ -31,10 +31,6 @@ msgstr "Dirección URL del API"
 msgid "Acumbamail Configuration"
 msgstr "Configuración de Acumbamail"
 
-#: collective/volto/acumbamail/interfaces.py:38
-msgid "List ID"
-msgstr "ID de lista de correo"
-
 #: collective/volto/acumbamail/profiles/default/controlpanel.xml
 msgid "Acumbamail Settings"
 msgstr "Configuración de Acumbamail"
@@ -51,7 +47,7 @@ msgstr "Volto: Integración de Acumbamail con Plone: Instalar"
 msgid "Acumbamail integration with Plone: Uninstall"
 msgstr "Volto: Integración de Acumbamail con Plone: Desinstalar"
 
-#: collective/volto/acumbamail/restapi/services/subscribe/subscribe.py:103
+#: collective/volto/acumbamail/restapi/services/subscribe/subscribe.py:104
 msgid "Acumbamail: {result}"
 msgstr "Acumbamail: {result}"
 
@@ -63,6 +59,10 @@ msgstr "Defina las credenciales y los parámetros de conexión para Acumbamail."
 msgid "General settings"
 msgstr "Ajustes generales"
 
+#: collective/volto/acumbamail/interfaces.py:38
+msgid "List ID"
+msgstr "ID de lista de correo"
+
 #: collective/volto/acumbamail/interfaces.py:39
 msgid "Numeric identifier of the list where subscribers will be added."
 msgstr "Identificador numérico de la lista a la que se añadirán los suscriptores."
@@ -71,7 +71,7 @@ msgstr "Identificador numérico de la lista a la que se añadirán los suscripto
 msgid "Package to configure a new Acumbamail integration with Plone site"
 msgstr "Paquete para configurar una nueva integración de Acumbamail con el sitio Plone"
 
-#: collective/volto/acumbamail/restapi/services/subscribe/subscribe.py:98
+#: collective/volto/acumbamail/restapi/services/subscribe/subscribe.py:99
 msgid "Subscription successful"
 msgstr "Suscripción exitosa"
 

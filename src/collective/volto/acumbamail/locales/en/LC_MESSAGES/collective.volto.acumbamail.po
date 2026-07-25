@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-04-12 11:39+0000\n"
+"POT-Creation-Date: 2026-07-25 14:13+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,10 +26,6 @@ msgstr ""
 msgid "Acumbamail Configuration"
 msgstr ""
 
-#: collective/volto/acumbamail/interfaces.py:38
-msgid "List ID"
-msgstr ""
-
 #: collective/volto/acumbamail/profiles/default/controlpanel.xml
 msgid "Acumbamail Settings"
 msgstr ""
@@ -46,7 +42,7 @@ msgstr ""
 msgid "Acumbamail integration with Plone: Uninstall"
 msgstr ""
 
-#: collective/volto/acumbamail/restapi/services/subscribe/subscribe.py:103
+#: collective/volto/acumbamail/restapi/services/subscribe/subscribe.py:104
 msgid "Acumbamail: {result}"
 msgstr ""
 
@@ -58,6 +54,10 @@ msgstr ""
 msgid "General settings"
 msgstr ""
 
+#: collective/volto/acumbamail/interfaces.py:38
+msgid "List ID"
+msgstr ""
+
 #: collective/volto/acumbamail/interfaces.py:39
 msgid "Numeric identifier of the list where subscribers will be added."
 msgstr ""
@@ -66,7 +66,7 @@ msgstr ""
 msgid "Package to configure a new Acumbamail integration with Plone site"
 msgstr ""
 
-#: collective/volto/acumbamail/restapi/services/subscribe/subscribe.py:98
+#: collective/volto/acumbamail/restapi/services/subscribe/subscribe.py:99
 msgid "Subscription successful"
 msgstr ""
 
