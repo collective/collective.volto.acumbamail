@@ -166,7 +166,7 @@ To avoid enabling registry access to everyone, this package exposes a dedicated 
 curl -i -X POST http://localhost:8080/Plone/@acumbamail-subscribe \
   -H "Accept: application/json" \
   -H "Accept-Language: es" \
-  --data '{"email": "leonardocaballero@gmail.com"}' \
+  --data '{"email": "user@example.com"}' \
   --user admin:admin
 ```
 
