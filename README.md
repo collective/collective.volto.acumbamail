@@ -17,13 +17,13 @@ An integration for the [Acumbamail](https://acumbamail.com/) service with Plone.
 
 **Add-on Configuration Access**
 
-<img width="290" alt="Add-on Configuration" src="https://raw.githubusercontent.com/collective/collective.volto.acumbamail/refs/heads/main/docs/images/addon-configuration-acumbamail-icon.png">
+<img width="290" alt="Add-on Configuration" src="https://raw.githubusercontent.com/collective/collective.volto.acumbamail/refs/heads/main/docs/source/images/addon-configuration-acumbamail-icon.png">
 
 ---
 
 **Acumbamail Settings control panel**
 
-<img width="720" alt="Acumbamail Settings" src="https://raw.githubusercontent.com/collective/collective.volto.acumbamail/refs/heads/main/docs/images/acumbamail-settings.png">
+<img width="720" alt="Acumbamail Settings" src="https://raw.githubusercontent.com/collective/collective.volto.acumbamail/refs/heads/main/docs/source/images/acumbamail-settings.png">
 
 ## Volto integration
 
@@ -256,7 +256,7 @@ Developed with the support of:
 
 - [Instituto Municipal de Deportes - IMD, Seville City Council, Spain](https://imd.sevilla.org/).
 
-  <img width="200" alt="IMD Logo" src="https://raw.githubusercontent.com/collective/collective.volto.acumbamail/refs/heads/main/docs/images/imd-ayto-logo.svg">
+  <img width="200" alt="IMD Logo" src="https://raw.githubusercontent.com/collective/collective.volto.acumbamail/refs/heads/main/docs/source/images/imd-ayto-logo.svg">
 
 ### Acknowledgements 🙏
 
