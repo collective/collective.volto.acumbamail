@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-07-25 14:13+0000\n"
+"POT-Creation-Date: 2026-07-25 16:02+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,9 +26,6 @@ msgid "API URL"
 msgstr ""
 
 #: collective/volto/acumbamail/controlpanels/controlpanel.py:8
-msgid "Acumbamail Configuration"
-msgstr ""
-
 #: collective/volto/acumbamail/profiles/default/controlpanel.xml
 msgid "Acumbamail Settings"
 msgstr ""
@@ -50,7 +47,7 @@ msgid "Acumbamail: {result}"
 msgstr ""
 
 #: collective/volto/acumbamail/controlpanels/controlpanel.py:9
-msgid "Define the credentials and connection parameters for Acumbamail."
+msgid "Define the credentials and connection parameters for Acumbamail service."
 msgstr ""
 
 #: collective/volto/acumbamail/interfaces.py:21
@@ -86,5 +83,5 @@ msgid "Uninstall Acumbamail integration with Plone setup."
 msgstr ""
 
 #: collective/volto/acumbamail/interfaces.py:33
-msgid "Your Acumbamail personal token (https://acumbamail.com/api/)"
+msgid "Your personal token generated at the Acumbamail Dashboard website."
 msgstr ""

@@ -30,7 +30,7 @@ class IAcumbamailSettings(model.Schema):
 
     api_key = schema.TextLine(
         title=_("API Key"),
-        description=_("Your Acumbamail personal token (https://acumbamail.com/api/)"),
+        description=_("Your personal token generated at the Acumbamail Dashboard website."),  # noqa: E501
         required=True,
     )
 

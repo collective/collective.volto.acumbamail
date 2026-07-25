@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: collective.volto.acumbamail\n"
-"POT-Creation-Date: 2026-07-25 14:13+0000\n"
+"POT-Creation-Date: 2026-07-25 16:02+0000\n"
 "PO-Revision-Date: 2026-07-22 24:04+0100\n"
 "Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
 "Language-Team: ES <LL@li.org>\n"
@@ -28,9 +28,6 @@ msgid "API URL"
 msgstr "Dirección URL del API"
 
 #: collective/volto/acumbamail/controlpanels/controlpanel.py:8
-msgid "Acumbamail Configuration"
-msgstr "Configuración de Acumbamail"
-
 #: collective/volto/acumbamail/profiles/default/controlpanel.xml
 msgid "Acumbamail Settings"
 msgstr "Configuración de Acumbamail"
@@ -52,8 +49,8 @@ msgid "Acumbamail: {result}"
 msgstr "Acumbamail: {result}"
 
 #: collective/volto/acumbamail/controlpanels/controlpanel.py:9
-msgid "Define the credentials and connection parameters for Acumbamail."
-msgstr "Defina las credenciales y los parámetros de conexión para Acumbamail."
+msgid "Define the credentials and connection parameters for Acumbamail service."
+msgstr "Defina las credenciales y los parámetros de conexión para el servicio de Acumbamail."
 
 #: collective/volto/acumbamail/interfaces.py:21
 msgid "General settings"
@@ -88,5 +85,5 @@ msgid "Uninstall Acumbamail integration with Plone setup."
 msgstr "Desinstalar la integración de Acumbamail con la configuración de Plone."
 
 #: collective/volto/acumbamail/interfaces.py:33
-msgid "Your Acumbamail personal token (https://acumbamail.com/api/)"
-msgstr "Tu token personal de Acumbamail (https://acumbamail.com/api/)"
+msgid "Your personal token generated at the Acumbamail Dashboard website."
+msgstr "Tu token personal generado en la página web del panel de control de Acumbamail."
