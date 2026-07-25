@@ -1,10 +1,10 @@
 # Translation of collective.volto.acumbamail.pot to Spanish
-# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2025.
+# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: collective.volto.acumbamail\n"
 "POT-Creation-Date: 2026-04-12 11:39+0000\n"
-"PO-Revision-Date: 2026-07-07 13:11+0100\n"
+"PO-Revision-Date: 2026-07-22 24:04+0100\n"
 "Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
 "Language-Team: ES <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -25,7 +25,7 @@ msgstr "Clave API de Acumbamail"
 
 #: collective/volto/acumbamail/interfaces.py:26
 msgid "API URL"
-msgstr "Direccción URL de la API de Acumbamail"
+msgstr "Dirección URL del API"
 
 #: collective/volto/acumbamail/controlpanels/controlpanel.py:8
 msgid "Acumbamail Configuration"
@@ -33,7 +33,7 @@ msgstr "Configuración de Acumbamail"
 
 #: collective/volto/acumbamail/interfaces.py:38
 msgid "List ID"
-msgstr "ID de la lista de correo Acumbamail"
+msgstr "ID de lista de correo"
 
 #: collective/volto/acumbamail/profiles/default/controlpanel.xml
 msgid "Acumbamail Settings"
@@ -81,7 +81,7 @@ msgstr "El campo 'correo electrónico' es obligatorio."
 
 #: collective/volto/acumbamail/interfaces.py:27
 msgid "The URL of the Acumbamail API endpoint."
-msgstr "La URL del endpoint de la API de Acumbamail."
+msgstr "La dirección URL del endpoint de la API de Acumbamail."
 
 #: collective/volto/acumbamail/profiles.zcml:21
 msgid "Uninstall Acumbamail integration with Plone setup."
