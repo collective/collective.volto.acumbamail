@@ -27,6 +27,8 @@ To use this product in Volto, you needs to include the following add-on in your 
 
 This product has been translated into
 
+- Basque
+
 - Catalan
 
 - English

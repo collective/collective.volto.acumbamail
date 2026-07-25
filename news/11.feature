@@ -1,0 +1,1 @@
+Added the Basque translation for this add-on #11 [macagua]
