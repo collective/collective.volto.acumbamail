@@ -1,1 +1,0 @@
-Added more improvements about the i18n support #12 [macagua]
