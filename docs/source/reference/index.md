@@ -7,6 +7,7 @@ myst:
     "keywords": "Acumbamail, service, Plone, integration, documentation, reference"
 ---
 
+(general-resources-label)=
 # General resources
 
 This part of the documentation contains reference material, including APIs, configuration values, and environment variables.
@@ -15,10 +16,20 @@ This part of the documentation contains reference material, including APIs, conf
 
 -   [Home page](https://acumbamail.com/).
 
--   [Official API Acumbamail Documentation](https://acumbamail.com/apidoc/).
+-   [Acumbamail API Documentation](https://acumbamail.com/apidoc/).
 
--   The [addSubscriber](https://acumbamail.com/apidoc/function/addSubscriber/), is the Acumbamail endpoints that using.
+-   The {term}`addSubscriber`, is the {term}`Acumbamail` endpoints that using.
 
 ## Volto
 
--   [volto-acumbamail](https://github.com/collective/volto-acumbamail) add-on.
+-   {term}`volto-acumbamail` {term}`add-on`.
+
+-   [Volto Developer Documentation](https://6.docs.plone.org/volto/development/index.html).
+
+## Plone CMS
+
+-   {term}`collective.volto.acumbamail` {term}`add-on`.
+
+-   [Plone REST API Documentation](https://6.docs.plone.org/plone.restapi/docs/source/index.html).
+
+-   [Plone Backend Developer Documentation](https://6.docs.plone.org/backend/index.html).

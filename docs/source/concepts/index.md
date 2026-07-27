@@ -9,11 +9,11 @@ myst:
 
 # Functional concepts
 
-Functional concepts of integration with Acumbamail service in Plone and Volto.
+Functional concepts of integration with {term}`Acumbamail` service in {term}`Plone` and {term}`Volto`.
 
 ## Overview
 
-Acumbamail is a cloud-based Email Marketing and Marketing Automation platform that provides services such as:
+{term}`Acumbamail` is a cloud-based Email Marketing and Marketing Automation platform that provides services such as:
 
 - Newsletter management
 - Contact and subscriber management
@@ -24,7 +24,7 @@ Acumbamail is a cloud-based Email Marketing and Marketing Automation platform th
 - SMS campaigns
 - Campaign analytics
 
-When integrated with **Plone** and **Volto**, Acumbamail can be used to collect subscribers, synchronize contacts, automate email campaigns, and personalize communications based on user interactions.
+When integrated with {term}`Plone` and {term}`Volto`, {term}`Acumbamail` can be used to collect subscribers, synchronize contacts, automate email campaigns, and personalize communications based on user interactions.
 
 ---
 
@@ -58,7 +58,7 @@ When integrated with **Plone** and **Volto**, Acumbamail can be used to collect 
 
 ## 1. Account
 
-The Acumbamail account represents the organization using the service.
+The {term}`Acumbamail` account represents the organization using the service.
 
 It contains:
 
@@ -73,7 +73,7 @@ It contains:
 
 ## 2. API Key
 
-The API Key is used to authenticate requests from Plone.
+The API Key is used to authenticate requests from {term}`Plone`.
 
 Example:
 
@@ -83,7 +83,7 @@ Authorization: Bearer YOUR_API_KEY
 
 Recommendations:
 
-- Never expose it in Volto.
+- Never expose it in {term}`Volto`.
 - Store it only in the Plone backend.
 - Load it from environment variables.
 
@@ -176,13 +176,13 @@ Advantages
 
 ## 6. Forms
 
-Acumbamail allows creation of subscription forms.
+{term}`Acumbamail` allows creation of subscription forms.
 
 With Plone there are two approaches.
 
 ### Embedded Form
 
-Using Acumbamail HTML.
+Using {term}`Acumbamail` HTML.
 
 Pros
 
@@ -231,7 +231,7 @@ Possible campaign types
 - Announcements
 - Invitations
 
-Campaign creation is usually performed directly inside Acumbamail.
+Campaign creation is usually performed directly inside {term}`Acumbamail`.
 
 Plone normally triggers subscriber synchronization.
 
@@ -272,7 +272,7 @@ Example
 | Department |
 | Membership Level |
 
-These can be synchronized from Plone.
+These can be synchronized from {term}`Plone`.
 
 ---
 
@@ -300,7 +300,7 @@ Useful for automation.
 
 # Automation
 
-Acumbamail supports automated workflows.
+{term}`Acumbamail` supports automated workflows.
 
 Example
 
@@ -331,13 +331,13 @@ Examples
 - Purchase confirmation
 - Invoice delivery
 
-These are typically triggered directly from Plone.
+These are typically triggered directly from {term}`Plone`.
 
 ---
 
 # Statistics
 
-Acumbamail provides metrics such as
+{term}`Acumbamail` provides metrics such as
 
 - Delivered
 - Open rate
@@ -345,7 +345,7 @@ Acumbamail provides metrics such as
 - Bounce rate
 - Unsubscribe rate
 
-These statistics can be displayed inside Plone if desired.
+These statistics can be displayed inside {term}`Plone` if desired.
 
 ---
 
@@ -630,7 +630,4 @@ Confirmation Message
 
 # References
 
-- Acumbamail API Documentation
-- Plone REST API Documentation
-- Volto Developer Documentation
-- Plone Backend Developer Documentation
+Please checkout the {ref}`general-resources-label` section for more details.

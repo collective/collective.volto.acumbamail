@@ -9,7 +9,7 @@ myst:
 
 # Development
 
-The development of this add-on is done in isolation using the Plone core improvements.
+The development of this {term}`add-on` is done in isolation using the {term}`Plone` core improvements.
 
 ## Prerequisites ✅
 
@@ -114,7 +114,7 @@ make test
 Run unit tests with coverage report.
 
 ```shell
-test-coverage
+make test-coverage
 ```
 
 ## Contents
@@ -133,7 +133,7 @@ make remove-data
 
 ## Releases
 
-Create a release of this add-on
+Create a release of this {term}`add-on`
 
 ```shell
 make release

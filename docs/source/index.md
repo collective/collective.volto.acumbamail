@@ -9,11 +9,11 @@ myst:
 
 # Acumbamail integration with Plone
 
-Welcome to the documentation for `Acumbamail` integration with Plone!
+Welcome to the documentation for {term}`Acumbamail` integration with {term}`Plone`!
 
 <img width="400" alt="Acumbamail Logo" src="./_static/logo.svg">
 
-An integration for the `Acumbamail` service with Plone integration.
+An integration for the {term}`Acumbamail` service with {term}`Plone` integration.
 
 ---
 

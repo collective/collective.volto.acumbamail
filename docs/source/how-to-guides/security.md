@@ -9,7 +9,7 @@ myst:
 
 # Security access
 
-The `collective.volto.acumbamail` add-on includes the following roles and permissions:
+The {term}`collective.volto.acumbamail` {term}`add-on` includes the following roles and permissions:
 
 ## Roles
 
