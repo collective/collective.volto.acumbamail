@@ -9,6 +9,13 @@
 
 <!-- towncrier release notes start -->
 
+## 1.0.0 (2026-07-28)
+
+
+### New features:
+
+- Update the Spanish translations file for this add-on [macagua] [#14](https://github.com/collective/collective.volto.acumbamail/issues/14)
+
 ## 1.0.0b1 (2026-07-25)
 
 
