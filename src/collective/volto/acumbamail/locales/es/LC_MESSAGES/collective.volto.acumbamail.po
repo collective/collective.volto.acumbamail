@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: collective.volto.acumbamail\n"
 "POT-Creation-Date: 2026-07-25 16:02+0000\n"
-"PO-Revision-Date: 2026-07-22 24:04+0100\n"
+"PO-Revision-Date: 2026-07-28 08:40+0100\n"
 "Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
 "Language-Team: ES <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #: collective/volto/acumbamail/interfaces.py:32
 msgid "API Key"
-msgstr "Clave API de Acumbamail"
+msgstr "Clave API"
 
 #: collective/volto/acumbamail/interfaces.py:26
 msgid "API URL"

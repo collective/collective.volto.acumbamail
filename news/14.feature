@@ -1,0 +1,1 @@
+Update the Spanish translations file for this add-on [macagua]
