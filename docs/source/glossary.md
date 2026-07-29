@@ -106,7 +106,7 @@ api_url
 API Key
 api_key
     The API Key is a secret token used to authenticate requests from {term}`Plone` to the {term}`Acumbamail` API.
-    It corresponds to the personal token available at [https://acumbamail.com/api/](https://acumbamail.com/api/).
+    It corresponds to the personal token available at [https://acumbamail.com/login/](https://acumbamail.com/login/).
     It must be stored only in the {term}`Plone` backend and never exposed to the {term}`Volto` frontend.
 
 List ID
@@ -122,7 +122,7 @@ list_id
 
 @acumbamail-subscribe
     A REST API endpoint exposed by {term}`collective.volto.acumbamail` that allows {term}`Volto` to add a new subscriber to the configured {term}`Acumbamail` list.
-    It wraps the [batchAddSubscribers](https://acumbamail.com/apidoc/function/batchAddSubscribers/) {term}`Acumbamail` API function.
+    It wraps the {term}`batchAddSubscribers` {term}`Acumbamail` API function.
 
     **Example:** Take a look to the {ref}`acumbamail-subscribe-route` section.
 
