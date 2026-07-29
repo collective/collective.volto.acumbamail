@@ -269,8 +269,8 @@ class TestAcumbamailSubscribe(unittest.TestCase):
         self.assertEqual(result["status"], "ok")
         # Verify the URL was called without trailing slash
         called_url = mock_post.call_args[0][0]
-        self.assertIn("https://acumbamail.com/api/1/addSubscriber", called_url)
-        self.assertNotIn("https://acumbamail.com/api/1//addSubscriber", called_url)
+        self.assertIn("https://acumbamail.com/api/1/batchAddSubscribers", called_url)
+        self.assertNotIn("https://acumbamail.com/api/1//batchAddSubscribers", called_url)
 
     @patch(
         "collective.volto.acumbamail.restapi.services.subscribe.subscribe.requests.post"

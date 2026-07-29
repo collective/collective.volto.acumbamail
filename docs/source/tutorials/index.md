@@ -93,7 +93,7 @@ Below is a `PATCH` operation to set up the {term}`api_url`, {term}`api_key` and 
 curl -i -X PATCH http://localhost:8080/Plone/@controlpanels/acumbamail-settings \
   -H "Accept: application/json" \
   -H "Content-Type: application/json" \
-  --data '{"api_url": "https://acumbamail.com/api/1/addSubscriber", "api_key": "204615m3a78w2fgt3t1nm34567890123", "list_id": "4702726"}' \
+  --data '{"api_url": "https://acumbamail.com/api/1", "api_key": "204615m3a78w2fgt3t1nm34567890123", "list_id": "4702726"}' \
   --user admin:admin
 ```
 

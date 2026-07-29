@@ -74,18 +74,20 @@ class AcumbamailSubscribe(Service):
             }
 
         # Construct the API endpoint URL and payload for subscribing the user.
-        full_url = f"{api_url}/addSubscriber/?auth_token={api_key}&list_id={list_id}&double_optin=1"  # noqa: E501
+        full_url = f"{api_url}/batchAddSubscribers/"
         payload = {
             "auth_token": api_key,
             "list_id": list_id,
-            "email": email,
-            # "name": name,
+            "subscribers_data": json.dumps([{
+                "email": email,
+                # "name": name,
+            }]),
         }
 
         try:
             # Note: The actual API endpoint and payload structure may differ based on
             # Acumbamail's API documentation.
-            response = requests.post(full_url, json=payload, timeout=10)
+            response = requests.post(full_url, data=payload, timeout=10)
             # Check if the request was successful (status code 200-299)
             response.raise_for_status()
             # Check if the response is JSON before trying to parse it
@@ -94,8 +96,14 @@ class AcumbamailSubscribe(Service):
                 # Parse the response from Acumbamail and determine if the subscription
                 # was successful.
                 result = response.json()
-            # Acumbamail's response may vary; adapt it according to the actual API.
-            if isinstance(result, dict) and result.get("success"):
+            # batchAddSubscribers returns a list of {email: id} on success.
+            # Alternatively some responses use {"success": True}.
+            success = (isinstance(result, dict) and result.get("success")) or (
+                isinstance(result, list)
+                and len(result) > 0
+                and isinstance(result[0], dict)
+            )
+            if success:
                 return {"status": "ok", "message": _("Subscription successful")}
             else:
                 logger.warning(f"Acumbamail responded with an error: {result}")

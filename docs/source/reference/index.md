@@ -18,7 +18,7 @@ This part of the documentation contains reference material, including APIs, conf
 
 -   [Acumbamail API Documentation](https://acumbamail.com/apidoc/).
 
--   The {term}`addSubscriber`, is the {term}`Acumbamail` endpoints that using.
+-   The {term}`batchAddSubscribers`, is the {term}`Acumbamail` endpoints that using.
 
 ## Volto
 

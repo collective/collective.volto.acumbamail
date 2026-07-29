@@ -122,14 +122,14 @@ list_id
 
 @acumbamail-subscribe
     A REST API endpoint exposed by {term}`collective.volto.acumbamail` that allows {term}`Volto` to add a new subscriber to the configured {term}`Acumbamail` list.
-    It wraps the [addSubscriber](https://acumbamail.com/apidoc/function/addSubscriber/) {term}`Acumbamail` API function.
+    It wraps the [batchAddSubscribers](https://acumbamail.com/apidoc/function/batchAddSubscribers/) {term}`Acumbamail` API function.
 
     **Example:** Take a look to the {ref}`acumbamail-subscribe-route` section.
 
-addSubscriber
-    The {term}`Acumbamail` API function used to add a new contact to a mailing list.
+batchAddSubscribers
+    The {term}`Acumbamail` API function used to add a new subscriber to a mailing list.
 
-    **Tip:** More infomation checkout the official [addSubscriber/](https://acumbamail.com/apidoc/function/addSubscriber/) documentation.
+    **Tip:** More infomation checkout the official [batchAddSubscribers/](https://acumbamail.com/apidoc/function/batchAddSubscribers/) documentation.
 
 Subscriber
     A subscriber represents one contact registered in an {term}`Acumbamail` mailing list.

@@ -17,7 +17,7 @@ This part of the documentation contains how-to guides, including installation an
 
 - RestApi endpoint that exposes the {term}`Acumbamail Settings` for {term}`Volto` _integration_.
 
-- Add {term}`addSubscriber` endpoint support to new subscriber to the {term}`Acumbamail` list.
+- Add {term}`batchAddSubscribers` endpoint support to new subscriber to the {term}`Acumbamail` list.
 
 ## Volto integration
 
