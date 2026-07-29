@@ -9,6 +9,13 @@
 
 <!-- towncrier release notes start -->
 
+## 1.0.1 (2026-07-29)
+
+
+### Bug fixes:
+
+- Fixed the 'HTTPError: 403 Client Error: Forbidden for url: https://acumbamail.com/api/1/addSubscriber/addSubscriber/?auth_token=' message [macagua] [#15](https://github.com/collective/collective.volto.acumbamail/issues/15)
+
 ## 1.0.0 (2026-07-28)
 
 
