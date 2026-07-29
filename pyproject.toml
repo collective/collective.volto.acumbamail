@@ -201,7 +201,7 @@ preview = true
 testpaths = ["tests"]
 
 [tool.coverage.run]
-source_pkgs = ["collective.volto.acumbamail", "tests"]
+source_pkgs = ["collective.volto.acumbamail"]
 branch = true
 parallel = true
 omit = [
