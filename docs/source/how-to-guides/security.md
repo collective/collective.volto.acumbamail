@@ -13,13 +13,27 @@ The {term}`collective.volto.acumbamail` {term}`add-on` includes the following ro
 
 ## Roles
 
-- ``Acumbamail`` role (**NEW!!!**).
+- ``Acumbamail`` role.
+
+  ```{note}
+  New feature inclueded in this {term}`add-on`.
+  ```
 
 ## Permissions
 
-- ``volto.acumbamail: Manage Acumbamail Settings`` permission (**NEW!!!**) grants access to the following roles:
+- ``volto.acumbamail: Manage Acumbamail Settings``
+
+  ```{note}
+  New feature inclueded in this {term}`add-on`.
+  ```
+
+  This permission grants access to the following roles:
 
   - ``Acumbamail`` role.
+
+    ```{tip}
+    If to grant this role to a user, this inherited the permissions that included, and there are details bellow:
+    ```
 
 - The ``Plone Site Setup: Overview`` permission grants access to the `Site Setup: Overview ` view to the following roles:
 

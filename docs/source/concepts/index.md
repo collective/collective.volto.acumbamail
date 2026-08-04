@@ -24,7 +24,7 @@ Functional concepts of integration with {term}`Acumbamail` service in {term}`Plo
 - SMS campaigns
 - Campaign analytics
 
-When integrated with {term}`Plone` and {term}`Volto`, {term}`Acumbamail` can be used to collect subscribers, synchronize contacts, automate email campaigns, and personalize communications based on user interactions.
+When integrated with {term}`Plone` and {term}`Volto`, {term}`Acumbamail` can implements to collect subscribers, synchronize contacts, automate email campaigns, and personalize communications based on user interactions.
 
 ---
 
@@ -54,7 +54,7 @@ When integrated with {term}`Plone` and {term}`Volto`, {term}`Acumbamail` can be 
 
 ---
 
-# Main Concepts
+# Main concepts
 
 ## 1. Account
 
@@ -71,9 +71,9 @@ It contains:
 
 ---
 
-## 2. API Key
+## 2. The API key
 
-The API Key is used to authenticate requests from {term}`Plone`.
+The API Key is using to authenticate requests from {term}`Plone`.
 
 Example:
 
@@ -148,9 +148,9 @@ Example
 
 ---
 
-## 5. Double Opt-in
+## 5. Double opt-in
 
-Recommended for GDPR compliance.
+Recommended for `GDPR` compliance.
 
 Workflow
 
@@ -169,24 +169,24 @@ Subscriber becomes Active
 Advantages
 
 - Better email quality
-- GDPR compliance
+- `GDPR` compliance
 - Lower spam complaints
 
 ---
 
 ## 6. Forms
 
-{term}`Acumbamail` allows creation of subscription forms.
+{term}`Acumbamail` lets the creation of subscription forms.
 
 With Plone there are two approaches.
 
-### Embedded Form
+### Embedded form
 
 Using {term}`Acumbamail` HTML.
 
 Pros
 
-- Very simple
+- It's easy to implement
 
 Cons
 
@@ -194,7 +194,7 @@ Cons
 
 ---
 
-### Native Plone Form
+### Native Plone form
 
 Preferred.
 
@@ -239,7 +239,7 @@ Plone normally triggers subscriber synchronization.
 
 # Segments
 
-Subscribers can be divided into segments.
+Subscribers can dividing into segments.
 
 Examples
 
@@ -259,7 +259,7 @@ Useful for personalized communications.
 
 ---
 
-# Custom Fields
+# Custom fields
 
 Custom fields store organization-specific information.
 
@@ -272,7 +272,7 @@ Example
 | Department |
 | Membership Level |
 
-These can be synchronized from {term}`Plone`.
+These can be synchronizing from {term}`Plone`.
 
 ---
 
@@ -320,7 +320,7 @@ Request feedback
 
 ---
 
-# Transactional Emails
+# Transactional emails
 
 Different from campaigns.
 
@@ -345,11 +345,11 @@ These are typically triggered directly from {term}`Plone`.
 - Bounce rate
 - Unsubscribe rate
 
-These statistics can be displayed inside {term}`Plone` if desired.
+These statistics can be displaying inside {term}`Plone` if desired.
 
 ---
 
-# Integration Patterns
+# Integration patterns
 
 ## Pattern 1
 
@@ -413,7 +413,7 @@ Acumbamail
 
 ---
 
-# REST Integration
+# REST integration
 
 Typical backend flow
 
@@ -443,7 +443,7 @@ Volto
 
 ---
 
-# Example JSON Payload
+# JSON payload example
 
 ```json
 {
@@ -456,7 +456,7 @@ Volto
 
 ---
 
-# Error Handling
+# Error handling
 
 Common validations
 
@@ -470,7 +470,7 @@ Backend should return meaningful messages.
 
 ---
 
-# Security Recommendations
+# Security recommendations
 
 ## Never expose the API Key
 
@@ -500,7 +500,7 @@ Acumbamail
 
 ---
 
-## Validate Input
+## Validate input
 
 Validate
 
@@ -530,7 +530,7 @@ Avoid logging API keys.
 
 ---
 
-# GDPR Considerations
+# GDPR considerations
 
 Recommended
 
@@ -543,7 +543,7 @@ Recommended
 
 ---
 
-# Suggested Plone Components
+# Suggested Plone components
 
 Possible implementation
 
@@ -562,7 +562,7 @@ acumbamail/
 
 ---
 
-# Suggested Volto Components
+# Suggested Volto components
 
 ```
 src/
@@ -581,7 +581,7 @@ src/
 
 ---
 
-# Recommended Workflow
+# Recommended workflow
 
 ```
 Visitor
@@ -613,18 +613,18 @@ Confirmation Message
 
 ---
 
-# Best Practices
+# Best practices
 
 - Keep the API key only in Plone.
 - Use REST services for communication.
 - Implement Double Opt-in.
-- Handle duplicate subscriptions gracefully.
+- Handle duplicate subscriptions.
 - Synchronize custom fields.
 - Log integration errors.
 - Retry transient API failures.
 - Monitor API rate limits.
 - Use asynchronous tasks for bulk synchronization.
-- Follow GDPR and local privacy regulations.
+- Follow `GDPR` and local privacy regulations.
 
 ---
 

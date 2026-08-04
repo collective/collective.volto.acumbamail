@@ -9,7 +9,7 @@ myst:
 
 # Development
 
-The development of this {term}`add-on` is done in isolation using the {term}`Plone` core improvements.
+The development of this {term}`add-on` is making in isolation using the {term}`Plone` core improvements.
 
 ## Prerequisites ✅
 
@@ -79,25 +79,25 @@ In a separate terminal session, start the frontend.
 make start
 ```
 
-## Lint code
+## Lint Code
 
-Run Python tools in analyze mode.
+Run `Python` tools in analyze mode.
 
 ```shell
 make lint
 ```
 
-## Format code
+## Format Code
 
-Run Python tools in fix mode.
+Run `Python` tools in fix mode.
 
 ```shell
 make format
 ```
 
-## i18n
+## Internationalization - i18n
 
-Extract the i18n messages to locales.
+Synchronise the `i18n` messages to `locales` directory.
 
 ```shell
 make i18n
@@ -144,7 +144,7 @@ make release
 ## Add features using `plonecli` or `bobtemplates.plone`
 
 This package provides markers as strings (`<!-- extra stuff goes here -->`) that are compatible with [`plonecli`](https://github.com/plone/plonecli) and [`bobtemplates.plone`](https://github.com/plone/bobtemplates.plone).
-These markers act as hooks to add all kinds of subtemplates, including behaviors, control panels, upgrade steps, or other subtemplates from `plonecli`.
+These markers act as hooks to add all kinds of `subtemplates`, including `behaviors`, `control panels`, `upgrade steps`, or other `subtemplates` from `plonecli`.
 
 To run `plonecli` with configuration to target this package, run the following command.
 
@@ -166,5 +166,5 @@ make add behavior
 
 ### See also:
 
-You can check the list of available subtemplates in the [`bobtemplates.plone` `README.md` file](https://github.com/plone/bobtemplates.plone/?tab=readme-ov-file#provided-subtemplates).
+You can check the list of available `subtemplates` in the [`bobtemplates.plone` `README.md` file](https://github.com/plone/bobtemplates.plone/?tab=readme-ov-file#provided-subtemplates).
 See also the documentation of [Mockup and Patternslib](https://6.docs.plone.org/classic-ui/mockup.html) for how to build the UI toolkit for Classic UI.

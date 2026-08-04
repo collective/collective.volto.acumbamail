@@ -16,11 +16,12 @@ for the front end.
 ---
 
 (acumbamail-settings-route)=
-## @acumbamail-settings route
+## Acumbamail settings route
 
 Anonymous users can't access registry resources by default with {term}`plone.restapi` (there is a special permission).
 
-To avoid enabling registry access to everyone, this package exposes a dedicated RestApi route with {term}`Acumbamail Settings` (`@acumbamail-settings`):
+To avoid enabling registry access to everyone, this package exposes a dedicated RestApi route with
+{term}`Acumbamail Settings` (`@acumbamail-settings`):
 
 Get the information from the {term}`Acumbamail Settings` via `curl` command:
 
@@ -108,14 +109,16 @@ Via: waitress
 X-Powered-By: Zope (www.zope.dev), Python (www.python.org)
 ```
 
-That means you were updated the values in the {term}`Acumbamail Settings` control panel fields correctly!
+That means you updates the values in the {term}`Acumbamail Settings` control panel fields correctly.
 
-**NOTE:** You can validate the update operation, going to ``Site setup > Add-on Settings > Acumbamail Settings``.
+```{note}
+You can validate the update operation, going to ``Site setup > Add-on Settings > Acumbamail Settings``.
+```
 
 ---
 
 (acumbamail-subscribe-route)=
-## @acumbamail-subscribe route
+## Acumbamail subscribe route
 
 Anonymous users can't access registry resources by default with {term}`plone.restapi` (there is a special permission).
 
@@ -130,6 +133,8 @@ curl -i -X POST http://localhost:8080/Plone/@acumbamail-subscribe \
   --user admin:admin
 ```
 
-This `route` can be used in for a {term}`Volto` _integration_ form componet.
+```{note}
+You can validate the add operation, going to your {term}`Acumbamail` Dashboard account.
+```
 
-**NOTE:** You can validate the add operation, going to your {term}`Acumbamail` Dashboard account.
+This `route` can be implements in {term}`Volto` _integration_ for a form component.
