@@ -8,10 +8,11 @@ An integration for the [Acumbamail](https://acumbamail.com/) service with Plone.
 
 ## Features
 
-- Control panel in Plone registry to manage ``Acumbamail`` settings.
-- RestApi endpoint that exposes these settings for Volto.
-- Add a [new subscriber](https://acumbamail.com/apidoc/function/batchAddSubscribers/) to the Acumbamail list.
+- Control panel in Plone registry to manage ``Acumbamail Settings``.
 
+- RestApi endpoint that exposes the ``Acumbamail Settings`` for `Volto` _integration_.
+
+- Add a [new subscriber](https://acumbamail.com/apidoc/function/batchAddSubscribers/) to the Acumbamail list.
 
 ## Screenshot
 
@@ -27,11 +28,12 @@ An integration for the [Acumbamail](https://acumbamail.com/) service with Plone.
 
 ## Volto integration
 
-To use this product in Volto, your Volto project needs to include a new add-on: https://github.com/collective/volto-acumbamail
+To use this product in `Volto`, you needs to include the following add-on
+in your project: [volto-acumbamail](https://github.com/collective/volto-acumbamail).
 
 ## Translations
 
-This product has been translated into
+This product support the following languages:
 
 - Basque
 
@@ -45,17 +47,17 @@ This product has been translated into
 
 ## Compatibility
 
-- Tested with Python 3.12 and Plone 6.1.5.
+- Tested with `Python` 3.12 and {term}`Plone` 6.1.5.
 
-## Installation
+## Install it
 
-Install `collective.volto.acumbamail` with `pip`:
+To install in your project, the `collective.volto.acumbamail` `add-on` with `pip` command:
 
 ```shell
 pip install collective.volto.acumbamail
 ```
 
-And to create the Plone site:
+And to create the `Plone` site:
 
 ```shell
 make create-site
@@ -63,13 +65,14 @@ make create-site
 
 ## Custom REST services
 
-### @acumbamail-settings route
+### Acumbamail settings route
 
 Anonymous users can't access registry resources by default with ``plone.restapi`` (there is a special permission).
 
-To avoid enabling registry access to everyone, this package exposes a dedicated RestApi route with ``Acumbamail`` settings: *@acumbamail-settings*:
+To avoid enabling registry access to everyone, this package exposes a dedicated RestApi `route` with
+``Acumbamail Settings`` (`@acumbamail-settings`):
 
-Get the information from the ``Acumbamail`` settings via `curl` command:
+Get the information from the ``Acumbamail Settings`` via `curl` command:
 
 ```shell
 curl -X GET http://localhost:8080/Plone/@controlpanels/acumbamail-settings \
@@ -77,7 +80,7 @@ curl -X GET http://localhost:8080/Plone/@controlpanels/acumbamail-settings \
   --user admin:admin
 ```
 
-This route returns a JSON object containing the ``Acumbamail`` settings and data via `curl` command:
+This `route` returns a JSON object containing the ``Acumbamail`` settings and data via `curl` command:
 
 ```json
 {
@@ -144,7 +147,7 @@ curl -i -X PATCH http://localhost:8080/Plone/@controlpanels/acumbamail-settings 
   --user admin:admin
 ```
 
-This route returns a HTTP response:
+This `route` returns a HTTP response:
 
 ```shell
 HTTP/1.1 204 No Content
@@ -155,13 +158,13 @@ Via: waitress
 X-Powered-By: Zope (www.zope.dev), Python (www.python.org)
 ```
 
-That means you were updated the values in the ``Acumbamail`` settings control panel fields correctly!
+That means you updates the values in the ``Acumbamail Settings`` control panel fields correctly.
 
-**NOTE:** You can validate the update operation, going to ``Site setup > Add-on settings > Acumbamail settings``.
+**NOTE:** You can validate the update operation, going to ``Site setup > Add-on Settings > Acumbamail Settings``.
 
 ---
 
-### @acumbamail-subscribe route
+### Acumbamail subscribe route
 
 Anonymous users can't access registry resources by default with ``plone.restapi`` (there is a special permission).
 
@@ -264,14 +267,14 @@ Generated using [Cookieplone (0.9.10)](https://github.com/plone/cookieplone) and
 
 ## Authors
 
-This product was developed by Leonardo J. Caballero G. [leonardocaballero@gmail.com].
+This product was developed by [Leonardo J. Caballero G.](https://github.com/macagua).
 
 <img width="100" alt="Leonardo J. Caballero G." src="https://avatars.githubusercontent.com/u/185395?v=4&size=100">
 
 ### Contributors
 
-You can see a list of contributors in the [CONTRIBUTORS.md](https://raw.githubusercontent.com/collective/collective.volto.turnstile/refs/heads/main/CONTRIBUTORS.md) file.
+You can see a list of contributors in the [CONTRIBUTORS.md](https://raw.githubusercontent.com/collective/collective.volto.acumbamail/refs/heads/main/CONTRIBUTORS.md) file.
 
 ## License
 
-The project is licensed under GPLv2.
+The project is licensed under [GPLv2](https://raw.githubusercontent.com/collective/collective.volto.acumbamail/refs/heads/main/LICENSE.md).

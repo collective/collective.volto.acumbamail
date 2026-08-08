@@ -31,7 +31,7 @@ curl -X GET http://localhost:8080/Plone/@controlpanels/acumbamail-settings \
   --user admin:admin
 ```
 
-This route returns a JSON object containing the {term}`Acumbamail Settings` and data via `curl` command:
+This `route` returns a `JSON` object containing the {term}`Acumbamail Settings` and data via `curl` command:
 
 ```json
 {
@@ -137,4 +137,4 @@ curl -i -X POST http://localhost:8080/Plone/@acumbamail-subscribe \
 You can validate the add operation, going to your {term}`Acumbamail` Dashboard account.
 ```
 
-This `route` can be implements in {term}`Volto` _integration_ for a form component.
+This `route` can be implements in a {term}`Volto` _integration_ for a form component.
